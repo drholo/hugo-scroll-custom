@@ -47,6 +47,9 @@ var $sitehead = $("#site-head");
     $("#header-arrow").click(function () {
       srcTo($first);
     });
+    $("#post-arrow").click(function () {
+      srcTo($sitehead);
+    });
 
     $(".post-title").each(function () {
       var t = $(this).text();
