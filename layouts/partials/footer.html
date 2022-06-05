@@ -9,4 +9,15 @@
     {{ end }}
 
   </div>
+  <!-- Start lang switch -->
+  <div class="container">
+    {{ if .IsTranslated }}
+    {{ range .Translations }}
+      <a href="{{ .Permalink }}">{{ .Site.Language.Params.languageName }}</a>
+    {{ end }}
+    {{ else }}
+    {{ $currentLang := .Site.Language.Lang }}
+    {{ end }}
+  </div>
+  <!-- End lang switch -->
 </footer>
