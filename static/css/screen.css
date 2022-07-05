@@ -503,7 +503,7 @@ ul li {
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 #blog-logo img {
   display: block;
-  max-height: 100px;
+  max-height: 150px;
   width: auto;
   margin: 0 auto;
   line-height: 0;
@@ -526,16 +526,18 @@ ul li {
 
 .blog-title {
   margin: 10px 0 10px 0;
-  font-size: 10rem;
+  font-size: 9rem;
   letter-spacing: -1px;
+  font-family: "Roboto Slab Google", serif;
 }
 
 .blog-description {
-  margin: 0;
-  font-size: 5rem;
+  margin: 0 0 25px 0;
+  font-size: 2rem;
   line-height: 1.5em;
   font-weight: 400;
-  font-family: "Roboto Slab Google", serif;
+  font-family: "Open Sans Official", sans-serif;
+  text-transform: uppercase;
   letter-spacing: 0;
 }
 
